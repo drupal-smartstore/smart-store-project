@@ -1,0 +1,8 @@
+{
+    "name": "ttn/smart-store",
+    "description": "A Ecoomerce Store",
+    "require": {
+        "php": ">=8.2",
+        "another-vendor/package": "1.*"
+    }
+}
