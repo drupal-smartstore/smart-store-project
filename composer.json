@@ -60,8 +60,8 @@
             "include-keys": ["homepage", "support"],
             "post-create-project-cmd-message": [
                 "<bg=blue;fg=white>                                                         </>",
-                "<bg=blue;fg=white>  Congratulations, you’ve installed the Drupal codebase  </>",
-                "<bg=blue;fg=white>  from the drupal/recommended-project template!          </>",
+                "<bg=blue;fg=white>  Congratulations, you’ve installed the SmartStore codebase  </>",
+                "<bg=blue;fg=white>  from the  smartstore/smart-store-project template!          </>",
                 "<bg=blue;fg=white>                                                         </>",
                 "",
                 "<bg=yellow;fg=black>Next steps</>:",
