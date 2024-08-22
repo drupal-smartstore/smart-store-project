@@ -12,10 +12,24 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "drupal-gitlab/change_user_route",
+                "type": "drupal-module",
+                "version": "dev-8.x-2.x@dev",
+                "source": {
+                  "type": "git",
+                  "url": "https://git.drupalcode.org/project/change_user_route.git",
+                  "reference": "8.x-2.x"
+                }
+            }
         }
     ],
     "require": {
         "composer/installers": "^2.0",
+        "cweagans/composer-patches": "^1.0",
         "drupal/core-composer-scaffold": "^10.0",
         "drupal/core-project-message": "^10.0",
         "drupal/core-recommended": "^10.0",
@@ -37,7 +51,8 @@
             "drupal/core-project-message": true,
             "phpstan/extension-installer": true,
             "dealerdirect/phpcodesniffer-composer-installer": true,
-            "php-http/discovery": true
+            "php-http/discovery": true,
+            "cweagans/composer-patches": true
         },
         "sort-packages": true
     },
@@ -47,6 +62,7 @@
                 "web-root": "web/"
             }
         },
+        "enable-patching": true,
         "installer-paths": {
             "web/core": ["type:drupal-core"],
             "web/libraries/{$name}": ["type:drupal-library"],
