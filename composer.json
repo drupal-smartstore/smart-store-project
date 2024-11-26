@@ -70,7 +70,8 @@
             "dealerdirect/phpcodesniffer-composer-installer": true,
             "php-http/discovery": true,
             "cweagans/composer-patches": true,
-            "oomphinc/composer-installers-extender": true
+            "oomphinc/composer-installers-extender": true,
+            "tbachert/spi": true
         },
         "sort-packages": true
     },
