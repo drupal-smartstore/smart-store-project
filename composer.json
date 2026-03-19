@@ -33,6 +33,7 @@
     "require": {
         "composer/installers": "^2.0",
         "cweagans/composer-patches": "^1.0",
+        "mglaman/composer-drupal-lenient": "^1.0",
         "oomphinc/composer-installers-extender": "^2.0",
         "smartstore/smart_store": "^1.x-dev"
     },
@@ -107,6 +108,15 @@
                 "      https://www.drupal.org/getting-involved",
                 "  * Remove the plugin that prints this message:",
                 "      composer remove drupal/core-project-message"
+            ]
+        },
+        "drupal-lenient": {
+            "allowed-list": [
+                "drupal/change_user_route",
+                "drupal/imagezoom",
+                "drupal/votingapi",
+                "drupal/fivestar",
+                "drupal/commerce_autosku"
             ]
         }
     }
