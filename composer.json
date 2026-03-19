@@ -20,19 +20,6 @@
         {
             "type": "package",
             "package": {
-                "name": "drupal-gitlab/change_user_route",
-                "type": "drupal-module",
-                "version": "dev-8.x-2.x@dev",
-                "source": {
-                  "type": "git",
-                  "url": "https://git.drupalcode.org/project/change_user_route.git",
-                  "reference": "8.x-2.x"
-                }
-            }
-        },
-        {
-            "type": "package",
-            "package": {
                 "name": "enyo/dropzone",
                 "version": "6.0.0-beta.2",
                 "type": "drupal-library",
@@ -46,15 +33,16 @@
     "require": {
         "composer/installers": "^2.0",
         "cweagans/composer-patches": "^1.0",
-        "drupal/core-composer-scaffold": "10.5.6",
-        "drupal/core-project-message": "10.5.6",
-        "drupal/core-recommended": "10.5.6",
-        "drush/drush": "^12",
         "oomphinc/composer-installers-extender": "^2.0",
         "smartstore/smart_store": "^1.x-dev"
     },
     "require-dev": {
-        "drupal/core-dev": "^10.0"
+        "chi-teck/drupal-code-generator": "^4.0",
+        "drupal/core-composer-scaffold": "^11.3",
+        "drupal/core-dev": "^11.3",
+        "drupal/core-project-message": "^11.3",
+        "drupal/core-recommended": "^11.3",
+        "drush/drush": "^13.0"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -64,13 +52,14 @@
     "config": {
         "allow-plugins": {
             "composer/installers": true,
+            "cweagans/composer-patches": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true,
             "drupal/core-composer-scaffold": true,
             "drupal/core-project-message": true,
-            "phpstan/extension-installer": true,
-            "dealerdirect/phpcodesniffer-composer-installer": true,
-            "php-http/discovery": true,
-            "cweagans/composer-patches": true,
+            "mglaman/composer-drupal-lenient": true,
             "oomphinc/composer-installers-extender": true,
+            "php-http/discovery": true,
+            "phpstan/extension-installer": true,
             "tbachert/spi": true
         },
         "sort-packages": true
