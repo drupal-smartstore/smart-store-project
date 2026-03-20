@@ -33,16 +33,15 @@
     "require": {
         "composer/installers": "^2.0",
         "cweagans/composer-patches": "^1.0",
+        "drupal/core-composer-scaffold": "11.3.5 as 10.6.0",
+        "drupal/core-project-message": "11.3.5 as 10.6.0",
+        "drupal/core-recommended": "11.3.5 as 10.6.0",
+        "drupal/core": "^11.3",
         "mglaman/composer-drupal-lenient": "^1.0",
         "oomphinc/composer-installers-extender": "^2.0",
         "smartstore/smart_store": "^1.x-dev"
     },
     "require-dev": {
-        "chi-teck/drupal-code-generator": "^4.0",
-        "drupal/core-composer-scaffold": "^11.3",
-        "drupal/core-dev": "^11.3",
-        "drupal/core-project-message": "^11.3",
-        "drupal/core-recommended": "^11.3",
         "drush/drush": "^13.0"
     },
     "conflict": {
@@ -112,7 +111,6 @@
         },
         "drupal-lenient": {
             "allowed-list": [
-                "drupal/change_user_route",
                 "drupal/imagezoom",
                 "drupal/votingapi",
                 "drupal/fivestar",
