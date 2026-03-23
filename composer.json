@@ -20,6 +20,19 @@
         {
             "type": "package",
             "package": {
+                "name": "drupal-gitlab/change_user_route",
+                "type": "drupal-module",
+                "version": "dev-8.x-2.x@dev",
+                "source": {
+                  "type": "git",
+                  "url": "https://git.drupalcode.org/project/change_user_route.git",
+                  "reference": "8.x-2.x"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
                 "name": "drupal-gitlab/commerce_autosku",
                 "type": "drupal-module",
                 "version": "dev-8.x-2.x@dev",
