@@ -50,7 +50,6 @@
         "drupal/core-project-message": "11.3.5 as 10.6.0",
         "drupal/core-recommended": "11.3.5 as 10.6.0",
         "drupal/core": "^11.3",
-        "mglaman/composer-drupal-lenient": "^1.0",
         "oomphinc/composer-installers-extender": "^2.0",
         "smartstore/smart_store": "^1.x-dev"
     },
@@ -69,7 +68,6 @@
             "dealerdirect/phpcodesniffer-composer-installer": true,
             "drupal/core-composer-scaffold": true,
             "drupal/core-project-message": true,
-            "mglaman/composer-drupal-lenient": true,
             "oomphinc/composer-installers-extender": true,
             "php-http/discovery": true,
             "phpstan/extension-installer": true,
@@ -120,14 +118,6 @@
                 "      https://www.drupal.org/getting-involved",
                 "  * Remove the plugin that prints this message:",
                 "      composer remove drupal/core-project-message"
-            ]
-        },
-        "drupal-lenient": {
-            "allowed-list": [
-                "drupal/imagezoom",
-                "drupal/votingapi",
-                "drupal/fivestar",
-                "drupal/commerce_autosku"
             ]
         }
     }
