@@ -20,6 +20,19 @@
         {
             "type": "package",
             "package": {
+                "name": "drupal-gitlab/commerce_autosku",
+                "type": "drupal-module",
+                "version": "dev-8.x-2.x@dev",
+                "source": {
+                "type": "git",
+                "url": "https://github.com/bhojwanipankaj05/commerce_autosku.git",
+                "reference": "8.x-2.x"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
                 "name": "enyo/dropzone",
                 "version": "6.0.0-beta.2",
                 "type": "drupal-library",
